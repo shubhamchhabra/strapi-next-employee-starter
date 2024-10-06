@@ -1,0 +1,29 @@
+{
+  "kind": "collectionType",
+  "collectionName": "pages",
+  "info": {
+    "singularName": "page",
+    "pluralName": "pages",
+    "displayName": "Pages",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "page_title": {
+      "type": "string"
+    },
+    "page_dynamic_content": {
+      "type": "dynamiczone",
+      "components": [
+        "content-grid.content-grid"
+      ]
+    },
+    "slug": {
+      "type": "string",
+      "unique": true
+    }
+  }
+}

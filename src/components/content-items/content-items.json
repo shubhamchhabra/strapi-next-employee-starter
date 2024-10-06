@@ -1,0 +1,32 @@
+{
+  "collectionName": "components_content_items_content_items",
+  "info": {
+    "displayName": "contentItems",
+    "icon": "cog"
+  },
+  "options": {},
+  "attributes": {
+    "contentBody": {
+      "type": "richtext"
+    },
+    "contentHeading": {
+      "type": "string"
+    },
+    "image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    },
+    "linkLabel": {
+      "type": "string"
+    },
+    "linkPath": {
+      "type": "string"
+    }
+  }
+}

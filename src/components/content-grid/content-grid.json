@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_content_grid_content_grids",
+  "info": {
+    "displayName": "Content Grid",
+    "icon": "stack"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "contentItems": {
+      "displayName": "contentItems",
+      "type": "component",
+      "repeatable": true,
+      "component": "content-items.content-items"
+    }
+  }
+}
